@@ -4,7 +4,8 @@
   "description": "A simple mapping library for when you just need to do a quick renaming of certain fields on objects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/GBora/simple_mapper/issues"
   },
-  "homepage": "https://github.com/GBora/simple_mapper#readme"
+  "homepage": "https://github.com/GBora/simple_mapper#readme",
+  "devDependencies": {
+    "rollup": "^2.62.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.4"
+  }
 }
