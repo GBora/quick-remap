@@ -1,6 +1,6 @@
 {
-  "name": "simple_mapper",
-  "version": "1.1.0",
+  "name": "quick-remap",
+  "version": "1.1.2",
   "description": "A simple mapping library for when you just need to do a quick renaming of certain fields on objects.",
   "main": "index.js",
   "types": "dist/index.d.ts",

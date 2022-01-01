@@ -1,6 +1,6 @@
 import { cloneDeep } from 'lodash';
 
-export const simpleMapping = (source: any, keysToRename: any, keysToSkip?: string[]): any => {
+export const quickMapping = (source: any, keysToRename: any, keysToSkip?: string[]): any => {
     let newObj: any = {};
     let rawKeys = Object.keys(source);
     let keys;
