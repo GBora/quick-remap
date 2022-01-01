@@ -36,4 +36,4 @@ A basic example with arrays
 ```
 ## Important
 
-The function will do a deep copy of the object, the library has been tested in the context of typescript and node, not plain javascript directly in the browser
+The function will do a deep copy of the object, the library has been tested in the context of typescript and node, not plain javascript directly in the browser.
