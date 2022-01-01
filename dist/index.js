@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.simpleMapping = void 0;
+exports.quickMapping = void 0;
 const lodash_1 = require("lodash");
-const simpleMapping = (source, keysToRename, keysToSkip) => {
+const quickMapping = (source, keysToRename, keysToSkip) => {
     let newObj = {};
     let rawKeys = Object.keys(source);
     let keys;
@@ -20,4 +20,4 @@ const simpleMapping = (source, keysToRename, keysToSkip) => {
     });
     return newObj;
 };
-exports.simpleMapping = simpleMapping;
+exports.quickMapping = quickMapping;
