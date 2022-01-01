@@ -1,0 +1,22 @@
+{
+  "name": "simple_mapper",
+  "version": "1.0.0",
+  "description": "A simple mapping library for when you just need to do a quick renaming of certain fields on objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBora/simple_mapper.git"
+  },
+  "keywords": [
+    "utility"
+  ],
+  "author": "George Bora <gpbora@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GBora/simple_mapper/issues"
+  },
+  "homepage": "https://github.com/GBora/simple_mapper#readme"
+}
