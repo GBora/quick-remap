@@ -1,6 +1,6 @@
-const cloneDeep = (obj: any) => JSON.parse(JSON.stringify(obj));
+import { cloneDeep } from 'lodash';
 
-export const simpleMapping = (source: any, keysToRename: any, keysToSkip: string[]): any => {
+export const simpleMapping = (source: any, keysToRename: any, keysToSkip?: string[]): any => {
     let newObj: any = {};
     let rawKeys = Object.keys(source);
     let keys;
